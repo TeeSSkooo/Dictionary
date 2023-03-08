@@ -25,3 +25,20 @@
 .listItem:not(:last-child) {
   @apply mb-[15px];
 }
+
+.speach {
+  @apply relative 
+         mb-[35px] 
+         overflow-hidden 
+         text-3xl 
+         font-bold 
+         text-[#2f2f2f] 
+         transition-all 
+         before:absolute 
+         before:top-1/2 
+         before:left-[150px] 
+         before:w-[100%] 
+         before:h-[1px] 
+         before:bg-[#ccc] 
+         before:translate-y-[-50%];
+}

@@ -1,0 +1,7 @@
+.layout {
+  @apply min-h-full transition-all;
+}
+
+.layout.dark {
+  @apply bg-[#1f212c] text-[#fff];
+}

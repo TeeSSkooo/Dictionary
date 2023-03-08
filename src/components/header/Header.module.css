@@ -1,0 +1,19 @@
+.switch {
+  @apply absolute 
+         top-1/2 
+         left-0 
+         w-[16px] 
+         h-[16px] 
+         rounded-[50%] 
+         bg-[#fff] 
+         transition-all
+         translate-y-[-50%];
+}
+
+input[type='checkbox']:checked + div .switch {
+  @apply left-full translate-x-[-100%] bg-[#9634e2];
+}
+
+input[type='checkbox']:checked + div {
+  @apply bg-[#fff] border-[#fff];
+}

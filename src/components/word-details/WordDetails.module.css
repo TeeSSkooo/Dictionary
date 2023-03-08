@@ -1,0 +1,27 @@
+.playBtn {
+  @apply w-[50px]
+         h-[50px] 
+         grid 
+         place-items-center 
+         rounded-[50%] 
+         transition-all
+         bg-[#e9d0fa]
+         min-[500px]:w-[70px]
+         min-[500px]:h-[70px];
+}
+
+.playBtn:hover {
+  @apply bg-[#9634e2];
+}
+
+.playBtn:hover svg {
+  fill: #fff;
+}
+
+.listItem {
+  @apply text-[#9634e2] text-base min-[500px]:text-xl;
+}
+
+.listItem:not(:last-child) {
+  @apply mb-[15px];
+}
